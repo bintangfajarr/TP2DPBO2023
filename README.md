@@ -3,7 +3,7 @@ Saya Muhammad Cahyana Bintang Fajar NIM 2102665 mengerjakan TP2 dalam mata kulia
 
 ## Desain Database
 
-* foto
+![design db](ssdb.png)
 
 pada program ini terdapat 3 tabel yaitu `akun`, `creator`, dan `gundam`
 - `akun` : terdapat 4 kolom, yaitu id, nama, username dan password
@@ -12,7 +12,7 @@ pada program ini terdapat 3 tabel yaitu `akun`, `creator`, dan `gundam`
 
 ## Desain Program
 
-* foto
+![design program](diagram.png)
 
 Pada program ini terdapat 8 class yaitu `login`, `register`, `dbConnection`, `cardCreator`, `cardGundam`, `addCreator`, `addGundam`, dan `Menu` dengan class `Login` sebagai main.
 - `dbConnection` : class ini hanya class biasa yang fungsinya untuk mengkoneksikan program dengan database
@@ -43,6 +43,60 @@ bisa register terlebih dahulu, jika ingin membuat akun baru
 6. anda juga bisa mengupdate data, jika dirasa datanya ingin di ubah, cukup klik tombol update di setiap card, nantinya akan diarahkan ke frame `addGundam`, tetapi bedanya, fieldnya akan langsung terisi sesuai data yang akan kita update
 7. jika sudah selesai, anda bisa logout saja, atau bisa langsung close programnya
 
+*setelah saya coba coba ternyata terkadang jar filenya nggak bisa dibuka, jadi jalankan lewat apache netbeans aja*
+
 ## Desain GUI
+### Login.Java
+![login](SSGUI/login.png)
+
+### Register.Java
+![register](SSGUI/register.png)
+
+### Menu.Java
+![menu](SSGUI/Menu.java.png)
+
+### cardCreator.Java
+![cardCreator](SSGUI/cardCreator.png)
+
+### cardGundam.Java
+![cardGundam](SSGUI/cardGundam.java.png)
+
+### addCreator.Java
+![addCreator](SSGUI/addCreator.png)
+
+### addGundam.Java
+![addGundam](SSGUI/addGundam.png)
 
 ## Dokumentasi
+### login Success
+![login](ssprogram/loginsuccess.png)
+
+### login failed(username /password salah)
+![login](ssprogram/loginfail.png)
+
+### register success
+![register](ssprogram/regsuccess.png)
+
+### register fail (username sudah ada di db)
+![register](ssprogram/regfailuname.png)
+
+
+### register fail (password tidak sama)
+![register](ssprogram/regfailpass.png)
+
+
+### add creator 
+![add](ssprogram/addsuccess.png)
+
+### add gundam 
+![add](ssprogram/addgundam.png)
+
+### update
+![update](ssprogram/updatesuccess.png)
+
+### delete success
+![delete](ssprogram/deletesuccess.png)
+
+### delete fail(karena creator terpakai di gundam)
+![delete](ssprogram/deletefail.png)
+
